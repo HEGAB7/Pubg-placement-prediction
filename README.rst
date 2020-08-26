@@ -1,6 +1,6 @@
 Pubg placement prediction
 =========================
-This notebook predicts the final placement of the player through some analysis on the number of kills ,headshots, etc. It's my solution to this `kaggle competition<https://www.kaggle.com/c/pubg-finish-placement-prediction>`__. 
+This notebook predicts the final placement of the player through some analysis on the number of kills ,headshots, etc. It's my solution to this `kaggle competition <https://www.kaggle.com/c/pubg-finish-placement-prediction>`__. 
 
 .. image:: http://pngimg.com/uploads/pubg/pubg_PNG58.png
    :width: 100
@@ -29,7 +29,7 @@ The features of the data:
    - roadKills : Number of kills while in a vehicle.
    - swimDistance : Total distance traveled by swimming measured in meters.
    - teamKills : Number of times this player killed a teammate.
-    vehicleDestroys : Number of vehicles destroyed.
+   - vehicleDestroys : Number of vehicles destroyed.
    - walkDistance : Total distance traveled on foot measured in meters.
    - weaponsAcquired : Number of weapons picked up.
    - winPoints : Win-based external ranking of player. (Think of this as an Elo ranking where only winning matters.) If there is a value other than -1 in rankPoints, then any 0       in winPoints should be treated as a “None”.
@@ -41,7 +41,7 @@ The features of the data:
     
 Notebook overview :
 -------------------
-1- Getting insights through visualization
-2- Feature extraction
-3- Modeling with linear regression and decision tree 
-4- Hyperparameter Tuning
+- Getting insights through visualization
+- Feature extraction
+- Modeling with linear regression and decision tree 
+- Hyperparameter Tuning
